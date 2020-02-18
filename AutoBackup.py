@@ -132,7 +132,7 @@ class UserData:
         self.backups_folder = backups_folder
         self.seconds_delay_between_backups = seconds_delay_between_backups
 
-    minimum_time_delay = 1
+    minimum_time_delay = 15
 
 
 # USER DATA OBJECT INSTANCE.
