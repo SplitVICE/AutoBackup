@@ -115,7 +115,7 @@ import datetime
 # IMPORT TO SEE IF THE FOLDER GIVEN AT CONFIG EXISTS.
 import os.path
 
-# IMPOR TO CLOSE THE PROGRAM.
+# IMPORT TO CLOSE THE PROGRAM.
 import sys
 
 
@@ -145,7 +145,7 @@ user_data = UserData('folderContentExample', 'Backup', 'Backups', 1)
 #########################################################
 #########################################################
 
-# LOADS DATA FROM config.ini AND STORED IT INSIDE THE UserData OBJECT.
+# LOADS DATA FROM config.ini AND STORES IT INSIDE THE UserData OBJECT.
 def load_config_settings_from_ini_file():
     print('Loading settings...')
     if does_ini_file_exist():
