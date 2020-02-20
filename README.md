@@ -1,9 +1,9 @@
 # AutoBackup
 To use this Python script it is not necessary to install anything. The script is a .exe executable.
 
-### How does the script works
+### How does the script work
 
-The script will create .zip files that stores the file you are currently working/using over time (you set a timer).
+The script will create .zip files that store the file you are currently working/using over time (you set a timer).
 
 ### How to use
 
