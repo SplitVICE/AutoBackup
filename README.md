@@ -1,5 +1,5 @@
 # AutoBackup
-To use this 
+To use this Python script it is not necessary to install anything. The script is a .exe executable.
 
 ### How does the script works
 
