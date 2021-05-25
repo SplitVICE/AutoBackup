@@ -1,24 +1,24 @@
 ###############################################################
-#     _   _   _ _____ ___  ____    _    ____ _  ___   _ ____  
-#    / \ | | | |_   _/ _ \| __ )  / \  / ___| |/ / | | |  _ \ 
+#     _   _   _ _____ ___  ____    _    ____ _  ___   _ ____
+#    / \ | | | |_   _/ _ \| __ )  / \  / ___| |/ / | | |  _ \
 #   / _ \| | | | | || | | |  _ \ / _ \| |   | ' /| | | | |_) |
-#  / ___ \ |_| | | || |_| | |_) / ___ \ |___| . \| |_| |  __/ 
-# /_/   \_\___/  |_| \___/|____/_/   \_\____|_|\_\\___/|_|                                                                   
-#                                                          
+#  / ___ \ |_| | | || |_| | |_) / ___ \ |___| . \| |_| |  __/
+# /_/   \_\___/  |_| \___/|____/_/   \_\____|_|\_\\___/|_|
+#
 ###############################################################
 # VERSION 1.0
 ###############################################################
 # by:
 #
-#      ██╗██╗   ██╗███████╗████████╗    ██╗   ██╗██╗ ██████╗███████╗
-#      ██║██║   ██║██╔════╝╚══██╔══╝    ██║   ██║██║██╔════╝██╔════╝
-#      ██║██║   ██║███████╗   ██║       ██║   ██║██║██║     █████╗
-# ██   ██║██║   ██║╚════██║   ██║       ╚██╗ ██╔╝██║██║     ██╔══╝
-# ╚█████╔╝╚██████╔╝███████║   ██║        ╚████╔╝ ██║╚██████╗███████╗
-#  ╚════╝  ╚═════╝ ╚══════╝   ╚═╝         ╚═══╝  ╚═╝ ╚═════╝╚══════╝
-#                              
+#██╗   ██╗██╗ ██████╗███████╗
+#██║   ██║██║██╔════╝██╔════╝
+#██║   ██║██║██║     █████╗
+#╚██╗ ██╔╝██║██║     ██╔══╝
+# ╚████╔╝ ██║╚██████╗███████╗
+#  ╚═══╝  ╚═╝ ╚═════╝╚══════╝
+#
 ###############################################################
-# WEB PAGE : https://justvice.github.io/
+# WEB PAGE : http://split-vice.com/
 ###############################################################
 
 # CREDITS #
@@ -27,77 +27,13 @@
 # CREDITS:
 # - Syntax provider: https://www.w3schools.com/python/
 # - ASCII art: http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20
-# - Radmin VPN: https://www.radmin-vpn.com/es/ (I got the idea of coding this script after 
-# almost losing a really important file while testing remote VPN file transfer.
-# Layer 8 error. Radmin VPN is excellent software).
-# - Friends that recommended  me to check out Python again. Special thanks to F. and M.
-
-# LICENSE #
-###########
-
-'''MIT License
-
-Copyright (c) 2020 JUST VICE
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.'''
+# - Special thanks to F. and M.
 
 ##########################################
 ##########################################
 ##########################################
 ##########################################
 ##########################################
-##########################################
-##########################################
-##########################################
-##########################################
-##########################################
-##########################################
-##########################################
-##########################################
-##########################################
-##########################################
-##########################################
-##########################################
-##########################################
-##########################################
-##########################################
-##########################################
-##########################################
-##########################################
-##########################################
-##########################################
-##########################################
-##########################################
-##########################################
-##########################################
-##########################################
-##########################################
-##########################################
-
-###############################################
-# NO EDITABLE CONTENT. FOR DEVELOPERS ONLY!!! #
-###############################################
-
-# FOR DEVELOPERS ONLY -- FOR DEVELOPERS ONLY -- FOR DEVELOPERS ONLY -- FOR DEVELOPERS ONLY -- FOR DEVELOPERS ONLY --
-# FOR DEVELOPERS ONLY -- FOR DEVELOPERS ONLY -- FOR DEVELOPERS ONLY -- FOR DEVELOPERS ONLY -- FOR DEVELOPERS ONLY --
-# FOR DEVELOPERS ONLY -- FOR DEVELOPERS ONLY -- FOR DEVELOPERS ONLY -- FOR DEVELOPERS ONLY -- FOR DEVELOPERS ONLY --
-# FOR DEVELOPERS ONLY --
 
 # PY FILE IMPORTS.
 # .ZIP IMPORT.
@@ -170,7 +106,7 @@ def load_config_settings_from_ini_file():
         print('config.ini file was not found. Recover config.ini file or download the script again.')
         print('Press any key to close.')
         input_message_holder = input()
-        close_script();
+        close_script()
 
 
 # CHECKS IF config.ini FILE EXISTS.
@@ -207,7 +143,7 @@ def is_minimum_time_delay_ok(delay_seconds, minimum_time_delay):
         print('Please, check your config settings.')
         print('Press any key to close.')
         input_message_holder = input()
-        close_script();
+        close_script()
         return False
 
 
@@ -301,43 +237,10 @@ def close_script():
 # WELCOME CONSOLE MESSAGE.
 def console_initiation_print():
     str = '''
-   db    88   88 888888  dP"Yb  88""Yb    db     dP""b8 88  dP 88   88 88""Yb 
-  dPYb   88   88   88   dP   Yb 88__dP   dPYb   dP   `" 88odP  88   88 88__dP 
- dP__Yb  Y8   8P   88   Yb   dP 88""Yb  dP__Yb  Yb      88"Yb  Y8   8P 88"""  
-dP""""Yb `YbodP'   88    YbodP  88oodP dP""""Yb  YboodP 88  Yb `YbodP' 88     
-  .d      dP"Yb                                                               
-.d88     dP   Yb                                                              
-  88 .o. Yb   dP                                                              
-  88 `"'  YbodP       
-                                                          
-88""Yb Yb  dP
-88__dP  YbdP 
-88""Yb   8P 
-88oodP  dP 
-                           ::kkMkk::
-                       MWNXK0OOOOOO0KNMW
-                    WNKOxolc:::::::ccldk0X:
-                  WXOdolllc::::::::::cclldx0N:
-                :NOxx0KXXXKkoc:::::ok0XXXX0OOK
-               :XxdKWMMMMMMWNkc::cxXWMMMMMMWKkON
-              WXdlOWMMMMMMMMMXd::dXWMMMMMMMMW0dkN
-              Nxcl0WMMMMMMMMMNx::dXWMMMMMMMMWKolO
-             W0l::dKWMMMMMMMNOl::ckNMMMMMMMWXxc:dX
-             Wkc:::okKNNWNX0dc::::cdOXNWWNKOoc::oK
-             Wkc:::::clooolc:::::::::looolc:::::oK
-             W0l::okOko:::::::::::::::::cdkOxl::dX
-             WNx:lONWW0l:::::::cc:::::::oKWWNxccOX
-              WKocoO0Odc::::cd0KKOdc::::cxO0klcxX
-               WKd::::::::::l0WWWWOc:::::::::cxX
-                WXkl:::::::::oxkkxl:::::::::oON
-                  WKkoc::::::::::::::::::cdOX
-                    WN0xolc::::::::::cldkKN
-                       WWXK0OkkkkkkO0KN
-                           ::kkWkk::
- 88888 88   88 .dP"Y8 888888     Yb    dP 88  dP""b8 888888 
-    88 88   88 `Ybo."   88        Yb  dP  88 dP   `" 88__   
-o.  88 Y8   8P o.`Y8b   88         YbdP   88 Yb      88""   
-"bodP' `YbodP' 8bodP'   88          YP    88  YboodP 888888 
+   db    88   88 888888  dP"Yb  88""Yb    db     dP""b8 88  dP 88   88 88""Yb
+  dPYb   88   88   88   dP   Yb 88__dP   dPYb   dP   `" 88odP  88   88 88__dP
+ dP__Yb  Y8   8P   88   Yb   dP 88""Yb  dP__Yb  Yb      88"Yb  Y8   8P 88"""
+dP""""Yb `YbodP'   88    YbodP  88oodP dP""""Yb  YboodP 88  Yb `YbodP' 88
 '''
     print(str)
     print('-------------------------------------------------------------------------------------------------------------')
